@@ -105,7 +105,7 @@ module.exports = {
                   language: 'tr'
                 }
               }, { upsert: true }).catch(e => { })
-              await interaction?.editReply({ content: `Botun dili başarıyla türkçe oldu. :flag_tr:`, embeds: [], components: [], ephemeral: true }).catch(e => { })
+              await interaction?.editReply({ content: `Bot dilini türkçe olarak ayarladın salak türk seni :flag_tr: :punch:`, embeds: [], components: [], ephemeral: true }).catch(e => { })
               await button?.deferUpdate().catch(e => { })
               await col?.stop()
               break
