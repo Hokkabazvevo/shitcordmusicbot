@@ -13,7 +13,7 @@ errorLog: "", //write your discord error log channel id.
 
 sponsor: {
 status: true, //true or false
-url: "https://awmbilisim.com", //write your discord sponsor url.
+url: "https://discord.gg/tbfXJyX6fm", //write your discord sponsor url.
 },
 
 voteManager: { //optional
